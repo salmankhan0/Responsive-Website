@@ -1,0 +1,172 @@
+.container{
+    /* border: 3px solid red; */
+    margin-top: 50px;
+}
+
+.row{
+    /* border: 3px solid blue; */
+
+}
+
+body{
+    background-color: slategrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color: orange;
+    padding: 10px 0px 10px 10px;
+    
+}
+@media screen and (max-width:700px){
+    #header{
+        background-color: rgb(153, 189, 82);
+        
+    }
+}
+
+#header h1{
+    color: rgb(26, 26, 167);
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+@media screen and (max-width:700px){
+    #header h1{
+        color: brown;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+}
+
+
+#manu{
+    background-color: pink;
+    padding: 3px 0;
+}
+#manu ul li{
+    margin: 13px 0px 10px 3px ;
+    background-color: rgb(51, 51, 114);
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 7px; 
+    text-transform: capitalize;
+}
+@media screen and (max-width:400px){
+    #manu ul li{
+        display: block;
+        background-color: pink;
+        
+    }
+}
+#manu ul li a{
+    color: white;
+
+}
+@media screen and (max-width:400px){
+    #manu ul li a{
+        background-color: rgb(51, 51, 114);
+        padding: 10px;
+        border-radius: 12px;
+        margin-left: -32px;
+
+    }
+}
+#manu ul{
+    margin: 0px;
+}
+#manu ul li a{
+      text-decoration: none;
+}
+@media screen and (max-width:400px){
+    #manu ul li a:hover{
+        background-color: maroon;
+
+    }
+}
+
+/* #manu li:hover{
+    background-color: maroon;
+    
+} */
+
+#content{
+    background-color: oldlace;
+
+}
+@media screen and (max-width:700px){
+    #content{
+        background-color: rgb(250, 236, 175);
+        text-align: justify;
+    }
+}
+
+
+#content h1{
+    font-weight: bold;
+    color: rgb(26, 26, 167);
+    margin-top: 10px;
+      text-transform: capitalize;   
+}
+
+@media screen and (max-width:700px){
+    #content h1{
+        color: rgb(243, 100, 75);
+        text-transform: uppercase;
+        font-size: 30px;
+        
+    }
+}
+
+
+#sidebar{
+    background-color: skyblue;
+}
+#sidebar ul li {
+    list-style: none;
+    margin: 13px;
+}
+#sidebar ul li a{
+    background-color: rgb(51, 51, 114);
+    color: cornsilk;
+    padding: 7px;
+    border-radius: 13px;
+}
+#sidebar ul li a{
+    text-decoration: none;
+}
+#sidebar li a:hover{
+  background-color: maroon;
+  
+}
+@media screen and (max-width:800px){
+    #sidebar ul li{
+        display: inline-block;
+        margin: 40px 0px 40px 6px;
+
+    }
+}
+
+@media screen and (max-width:800px){
+    #sidebar ul {
+        display: inline-block;
+        margin: 0px;
+
+    }
+}
+
+@media screen and (max-width:404px){
+    #sidebar ul li{
+        display:block;
+        margin: 15px;
+       margin-left: -35px ;
+       padding: 2px;
+    }
+}
+
+#footer{
+    background-color: orange;
+}
+
+
